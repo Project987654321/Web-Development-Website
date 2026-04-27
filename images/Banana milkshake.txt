@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Banana Milk Shake Recipe</title>
+<style>
+body {
+  background-color: black;
+  color: #dddddd;
+  font-family: Arial;
+  text-align: left;     
+  font-size: 30px;
+  padding: 20px;
+}
+h1 {
+  color: orange;        
+  text-align: center;
+}
+p {
+  color: #dddddd;
+  line-height: 1.6;
+}
+nav {
+  display: flex;            
+  justify-content: center;    
+  gap: 150px;                  
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #333;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: orange;
+}
+.content {
+  display: flex;             
+  align-items: flex-start;    
+  gap: 40px;
+}
+
+.right-img {
+  width: 200px;              
+  border-radius: 10px;
+}
+a {
+  color: orange;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  color: white;
+}
+</style>
+</head>
+<body>
+<nav>
+  <a href="index.html">HOME</a>  
+  <a href="snacks.html">SNACKS</a>
+  <a href="desserts.html">DESSERTS</a>
+  <a href="shakes.html">SHAKES</a>
+  <a href="juice.html">JUICES</a>
+</nav>
+<h1>Banana Milk Shake🍜</h1>
+<div class="content">
+
+  <div class="text">
+    <ul>
+      <b style="color:orange;">Ingredients:</b><br><br>
+      <li>1 medium ripe Banana</li>
+      <li>1 Glass milk (approx. 200-250ml)</li>
+      <li>1-2 table spoon honey or sugar</li>
+      <li>1 teaspoon peanut butter or cocoa powder
+  
+      <br>
+      <b style="color:orange;">Steps:</b><br><br>
+      <li>Peal and break the banana into small pieces in a bowl or glass.</li>
+      <li>Smash the banana well with a spoon until it becomes smooth paste.</li>
+      <li>Add sugar or honey and mix.</li>
+      <li>Pour in the milk slowly while stirring.</li>
+      <li>Transfer the mixture to a bottle/shaker and shake for 15-20sec</li>
+      <br>
+      <b style="color:orange;">Tips:</b><br><br>
+      <li>Add pinch of cinnamon.<li>
+      <li>Use cold milk for better taste</li>
+    </ul>
+  </div>
+
+  <img src="Banana milkshake.jpg">
+
+</div>
+<a href="snacks.html">⬅ Back to Desserts</a>
+
+</body>
+</html>     
