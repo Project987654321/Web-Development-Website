@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ratings - Hunger Escape</title>
+
+<style>
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
+
+h1 {
+  color: orange;
+}
+
+.recipe {
+  margin: 30px;
+  font-size: 25px;
+}
+
+.stars {
+  cursor: pointer;
+  font-size: 35px;
+  color: gray;
+}
+
+.stars span:hover,
+.stars span:hover ~ span {
+  color: gray;
+}
+
+.active {
+  color: gold;
+}
+
+.output {
+  font-size: 18px;
+  margin-top: 10px;
+  color: orange;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>⭐ Rate Recipes</h1>
+
+<div class="recipe">
+  Aloo Chilli Fry
+  <div class="stars" data-recipe="Aloo Chilli Fry">
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+  </div>
+  <div class="output" id=" Aloo Chilli Fry"></div>
+</div>
+
+<div class="recipe">
+  Masala Bread Roll
+  <div class="stars" data-recipe="Masala Bread Roll">
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+  </div>
+  <div class="output" id="Masala Bread Roll"></div>
+</div>
+
+
+<div class="recipe">
+ Egg masala Toast
+  <div class="stars" data-recipe="Egg masala Toast">
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+  </div>
+  <div class="output" id="Masala Bread Roll"></div>
+</div>
+<div class="recipe">
+ Chilli Garlic Peanuts
+  <div class="stars" data-recipe=" Chilli Garlic Peanuts">
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+  </div>
+  <div class="output" id=" Chilli Garlic Peanuts"></div>
+</div>
+<div class="recipe">
+ Cucumber Sandwich
+  <div class="stars" data-recipe="Cucumber Sandwich">
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+  </div>
+  <div class="output" id="Cucumber Sandwich"></div>
+</div>
+<div class="recipe">
+  Butter Chilli Potato
+  <div class="stars" data-recipe=" Butter Chilli Potato">
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+  </div>
+  <div class="output" id=" Butter Chilli Potato"></div>
+</div>
+<div class="recipe">
+  Bread Pizza
+  <div class="stars" data-recipe="Bread Pizza">
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+  </div>
+  <div class="output" id="Bread Pizza"></div>
+</div>
+<div class="recipe">
+ Butter Pepper Corn
+  <div class="stars" data-recipe="Butter Pepper Corn">
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+  </div>
+  <div class="output" id="Butter Pepper Corn"></div>
+</div>
+<div class="recipe">
+  Spicy Noodle Fry
+  <div class="stars" data-recipe="Spicy Noodle Fry">
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+  </div>
+  <div class="output" id="Spicy Noodle Fry"></div>
+</div>
+<div class="recipe">
+  Egg Bread Scramble
+  <div class="stars" data-recipe="Egg Bread Scramble">
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+  </div>
+  <div class="output" id="Egg Bread Scramble"></div>
+</div>
+
+<script>
+document.querySelectorAll(".stars").forEach(starBox => {
+  const stars = starBox.querySelectorAll("span");
+  const recipeName = starBox.getAttribute("data-recipe");
+  const output = document.getElementById(recipeName);
+
+  stars.forEach((star, index) => {
+    star.addEventListener("click", () => {
+      
+      // remove previous selection
+      stars.forEach(s => s.classList.remove("active"));
+
+      // add new selection
+      for (let i = 0; i <= index; i++) {
+        stars[i].classList.add("active");
+      }
+
+      // show result
+      output.innerText = "You rated " + (index + 1) + " stars ⭐";
+    });
+  });
+});
+</script>
+
+</body>
+</html>

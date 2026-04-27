@@ -1,0 +1,130 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>Rank of Matrix</title>
+<style>
+body {
+  font-family: Arial;
+  background-color: white;
+  color: #dddddd;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: orange;
+  text-align: center;
+}
+
+.section {
+  background-color: #1a1a1a;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+}
+
+button {
+  background-color: orange;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+code {
+  background-color: #333;
+  padding: 10px;
+  display: block;
+  white-space: pre-wrap;
+  border-radius: 5px;
+}
+</style>
+
+
+
+
+
+
+• <a href=" banana milk shake.html"> Banana Milk Shake</a><br>
+• <a href="mango shake.html">Mango Shake</a><br>
+• <a href="chocolate shake.html"> Chocolate Shake</a><br>
+• <a href="apple milk shake.html">  Apple Milk Shake</a><br>
+• <a href="peanut butter shake.html"> Peanut Butter Shake</a><br>
+• <a href="hostel protein energy shake.html">Hostel Protein Energy Shake</a><br>
+• <a href="oreo milkshake.html">Oreo Milkshake</a><br>
+
+
+
+
+
+<!DOCTYPE html>  
+<html>
+<head>
+<title>Snacks</title>  
+<style>
+<style>
+body {
+  background-color: black;   
+  color: white;              
+  font-family: Arial;        
+  text-align: center; 
+font-size:30px;     
+}
+nav a {
+  color: white;             
+  margin: 15px;             
+  text-decoration: none;     
+  font-weight: bold;         
+}
+nav a:hover {
+  color: orange;            
+}
+a {
+  color: orange;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+}
+</style>
+</head>
+<body>
+<nav>
+  <a href="index.html">HOME</a>  
+  <a href="snacks.html">SNACKS</a>
+  <a href="desserts.html">DESSERTS</a>
+  <a href="shakes.html">SHAKES</a>
+  <a href="juice.html">JUICES</a>
+</nav>
+<h1>Snacks 🍟</h1>  
+<p>Here are some easy snacks for hostel life:</p>  
+<p>
+• <a href="aloo chilli fry.html">Aloo Chilli Fry</a><br>
+• <a href="masala bread roll.html">Masala Bread Roll</a><br>
+• <a href="egg masala toast.html">Egg Masala Toast</a><br>
+• <a href="chilli garlic peanuts.html">Chilli Garlic Peanuts</a><br>
+• <a href=" cucumber sandwich.html"> Cucumber Sandwich</a><br>
+• <a href="butter chilli potato.html">Butter Chilli Potato</a><br>
+• <a href="bread pizza .html">Bread Pizza </a><br>
+• <a href="butter pepper corn.html">Butter Pepper Corn</a><br>
+• <a href="spicy noodle fry.html">Spicy Noodle Fry</a><br>
+• <a href="egg bread scramble.html">Egg Bread Scramble</a><br>
+• <a href="masala peanut fry.html">Masala Peanut Fry</a><br>
+• <a href="spicy noodle fry.html">Spicy Noodle Fry</a><br>
+• <a href="tomato onion chaat.html">Tomato Onion Chaat</a><br>
+• <a href=" cheese corn sandwich.html"> Cheese Corn Sandwich</a><br>
+• <a href="spicy corn chaat.html">Spicy Corn Chaat</a><br>
+• <a href="hostel potato chaat.html">Hostel Potato Chaat</a><br>
+• <a href="masala egg bowl.html">Masala Egg Bowl</a><br>
+• <a href=garlic butter bread.html">Garlic Butter Bread</a><br>
+• <a href="noodle omelette.html">Noodle Omelette</a><br>
+• <a href="cheese chili toast.html">Cheese Chili Toast</a><br>
+</p>
+</body>
+</html>
+
